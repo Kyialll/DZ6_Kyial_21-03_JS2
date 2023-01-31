@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+
+
+
+        }
+        .btn{
+            height: 50px;
+            width: 300px;
+            border-radius: 30px;
+            background-color: forestgreen;
+
+        }
+        .btn:hover{
+            box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2)
+        }
+        .btn-prev{
+            height: 50px;
+            width: 300px;
+            border-radius: 30px;
+            background-color: darkred;
+        }
+        .btn-prev:hover{
+            box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2)
+        }
+
+        .block  {
+            width: 600px;
+            height: 300px;
+            border-radius: 40px;
+            border: 5px solid;
+            padding: 5px;
+            text-align: center;
+            font-size: 30px;
+            margin: 50px auto;
+            color: black;
+            font-weight: bolder;
+
+
+
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+<button class="btn-prev"> PREV </button>
+    <div class="block">
+    </div>
+<button class="btn"> NEXT </button>
+
+</div>
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
